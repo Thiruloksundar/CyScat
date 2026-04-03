@@ -1,0 +1,1507 @@
+--------------------
+Simulation Started at 2026-03-19 13:58:20.
+Calculating T-Matrix
+Took 0.011110432942708333 minutes
+Calculating S-Vector
+LU Decomposition
+Took 3.809928894042969e-5 minutes
+Computing S11&S21 Partition
+Took 0.006707449754079183 minutes
+Computing S12&S22 Partition
+Took 0.0003627816836039225 minutes
+Normalizing Scattering Matrix
+Took 7.828076680501302e-7 minutes
+--------------------------
+Total Simulation Time: 0.01821954647699992 minutes
+Simulation Terminated at 2026-03-19 13:58:21.
+--------------------
+Simulation Started at 2026-03-19 13:58:47.
+Calculating T-Matrix
+Took 0.001973533630371094 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.751219431559245e-6 minutes
+Computing S11&S21 Partition
+Took 0.00023363431294759113 minutes
+Computing S12&S22 Partition
+Took 0.0002276023228963216 minutes
+Normalizing Scattering Matrix
+Took 2.980232238769531e-7 minutes
+--------------------------
+Total Simulation Time: 0.0024418195088704428 minutes
+Simulation Terminated at 2026-03-19 13:58:47.
+--------------------
+Simulation Started at 2026-03-19 13:58:47.
+Calculating T-Matrix
+Took 0.0017281651496887207 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.182988484700521e-6 minutes
+Computing S11&S21 Partition
+Took 0.0002115170160929362 minutes
+Computing S12&S22 Partition
+Took 0.00021521647771199543 minutes
+Normalizing Scattering Matrix
+Took 2.86102294921875e-7 minutes
+--------------------------
+Total Simulation Time: 0.0021613677342732745 minutes
+Simulation Terminated at 2026-03-19 13:58:47.
+--------------------
+Simulation Started at 2026-03-19 13:58:47.
+Calculating T-Matrix
+Took 0.001732150713602702 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.182988484700521e-6 minutes
+Computing S11&S21 Partition
+Took 0.000212248166402181 minutes
+Computing S12&S22 Partition
+Took 0.0002261837323506673 minutes
+Normalizing Scattering Matrix
+Took 2.0265579223632812e-7 minutes
+--------------------------
+Total Simulation Time: 0.002176968256632487 minutes
+Simulation Terminated at 2026-03-19 13:58:47.
+--------------------
+Simulation Started at 2026-03-19 13:58:47.
+Calculating T-Matrix
+Took 0.0017394502957661948 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.413459777832031e-6 minutes
+Computing S11&S21 Partition
+Took 0.00021666288375854492 minutes
+Computing S12&S22 Partition
+Took 0.00021866559982299804 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.0021814266840616864 minutes
+Simulation Terminated at 2026-03-19 13:58:47.
+--------------------
+Simulation Started at 2026-03-19 13:58:47.
+Calculating T-Matrix
+Took 0.0017286181449890138 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.318092346191406e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022005240122477214 minutes
+Computing S12&S22 Partition
+Took 0.000628515084584554 minutes
+Normalizing Scattering Matrix
+Took 2.86102294921875e-7 minutes
+--------------------------
+Total Simulation Time: 0.0025837898254394533 minutes
+Simulation Terminated at 2026-03-19 13:58:47.
+--------------------
+Simulation Started at 2026-03-19 13:58:47.
+Calculating T-Matrix
+Took 0.001935418446858724 minutes
+Calculating S-Vector
+LU Decomposition
+Took 8.400281270345052e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022438367207845052 minutes
+Computing S12&S22 Partition
+Took 0.0002348502477010091 minutes
+Normalizing Scattering Matrix
+Took 3.178914388020833e-7 minutes
+--------------------------
+Total Simulation Time: 0.002403370539347331 minutes
+Simulation Terminated at 2026-03-19 13:58:47.
+--------------------
+Simulation Started at 2026-03-19 13:58:47.
+Calculating T-Matrix
+Took 0.001762235164642334 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.33398691813151e-6 minutes
+Computing S11&S21 Partition
+Took 0.00023265282313028973 minutes
+Computing S12&S22 Partition
+Took 0.00022765000661214194 minutes
+Normalizing Scattering Matrix
+Took 2.3047129313151042e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022291024525960285 minutes
+Simulation Terminated at 2026-03-19 13:58:48.
+--------------------
+Simulation Started at 2026-03-19 13:58:48.
+Calculating T-Matrix
+Took 0.0017819523811340332 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.620089213053385e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022788445154825848 minutes
+Computing S12&S22 Partition
+Took 0.00022342999776204427 minutes
+Normalizing Scattering Matrix
+Took 2.8212865193684896e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022401690483093263 minutes
+Simulation Terminated at 2026-03-19 13:58:48.
+--------------------
+Simulation Started at 2026-03-19 13:58:48.
+Calculating T-Matrix
+Took 0.0017585674921671548 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.798903147379557e-6 minutes
+Computing S11&S21 Partition
+Took 0.0002252658208211263 minutes
+Computing S12&S22 Partition
+Took 0.00022629896799723306 minutes
+Normalizing Scattering Matrix
+Took 2.662340799967448e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022171974182128907 minutes
+Simulation Terminated at 2026-03-19 13:58:48.
+--------------------
+Simulation Started at 2026-03-19 13:58:48.
+Calculating T-Matrix
+Took 0.0017737666765848795 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.286303202311198e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022176504135131835 minutes
+Computing S12&S22 Partition
+Took 0.00022228161493937176 minutes
+Normalizing Scattering Matrix
+Took 2.1855036417643228e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022243181864420574 minutes
+Simulation Terminated at 2026-03-19 13:58:48.
+--------------------
+Simulation Started at 2026-03-19 13:58:48.
+Calculating T-Matrix
+Took 0.0017656167348225912 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.751219431559245e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022926727930704753 minutes
+Computing S12&S22 Partition
+Took 0.00021880070368448894 minutes
+Normalizing Scattering Matrix
+Took 2.980232238769531e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022207339604695636 minutes
+Simulation Terminated at 2026-03-19 13:58:48.
+--------------------
+Simulation Started at 2026-03-19 13:58:48.
+Calculating T-Matrix
+Took 0.0017617662747701009 minutes
+Calculating S-Vector
+LU Decomposition
+Took 7.0015589396158855e-6 minutes
+Computing S11&S21 Partition
+Took 0.0002153158187866211 minutes
+Computing S12&S22 Partition
+Took 0.00022226572036743164 minutes
+Normalizing Scattering Matrix
+Took 1.986821492513021e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022065480550130206 minutes
+Simulation Terminated at 2026-03-19 13:58:48.
+--------------------
+Simulation Started at 2026-03-19 13:58:48.
+Calculating T-Matrix
+Took 0.001765898863474528 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.866455078125e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022429625193277994 minutes
+Computing S12&S22 Partition
+Took 0.00022301673889160156 minutes
+Normalizing Scattering Matrix
+Took 1.986821492513021e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022202769915262857 minutes
+Simulation Terminated at 2026-03-19 13:58:48.
+--------------------
+Simulation Started at 2026-03-19 13:58:48.
+Calculating T-Matrix
+Took 0.0017672022183736166 minutes
+Calculating S-Vector
+LU Decomposition
+Took 7.116794586181641e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022268295288085938 minutes
+Computing S12&S22 Partition
+Took 0.00022186438242594402 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022191007932027182 minutes
+Simulation Terminated at 2026-03-19 13:58:48.
+--------------------
+Simulation Started at 2026-03-19 13:58:48.
+Calculating T-Matrix
+Took 0.0017702182133992512 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.846586863199869e-6 minutes
+Computing S11&S21 Partition
+Took 0.00021701653798421224 minutes
+Computing S12&S22 Partition
+Took 0.00022566715876261393 minutes
+Normalizing Scattering Matrix
+Took 1.0816256205240886e-5 minutes
+--------------------------
+Total Simulation Time: 0.002230564753214518 minutes
+Simulation Terminated at 2026-03-19 13:58:49.
+--------------------
+Simulation Started at 2026-03-19 13:58:49.
+Calculating T-Matrix
+Took 0.0017625133196512857 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.735324859619141e-6 minutes
+Computing S11&S21 Partition
+Took 0.0002286871274312337 minutes
+Computing S12&S22 Partition
+Took 0.00022258361180623373 minutes
+Normalizing Scattering Matrix
+Took 2.3047129313151042e-7 minutes
+--------------------------
+Total Simulation Time: 0.002220749855041504 minutes
+Simulation Terminated at 2026-03-19 13:58:49.
+--------------------
+Simulation Started at 2026-03-19 13:58:49.
+Calculating T-Matrix
+Took 0.0017441352208455404 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.6836675008138025e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022798379262288412 minutes
+Computing S12&S22 Partition
+Took 0.00022095044453938802 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.0021999875704447427 minutes
+Simulation Terminated at 2026-03-19 13:58:49.
+--------------------
+Simulation Started at 2026-03-19 13:58:49.
+Calculating T-Matrix
+Took 0.0017589171727498373 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.751219431559245e-6 minutes
+Computing S11&S21 Partition
+Took 0.00021521647771199543 minutes
+Computing S12&S22 Partition
+Took 0.00022623538970947265 minutes
+Normalizing Scattering Matrix
+Took 2.1457672119140626e-7 minutes
+--------------------------
+Total Simulation Time: 0.002207334836324056 minutes
+Simulation Terminated at 2026-03-19 13:58:49.
+--------------------
+Simulation Started at 2026-03-19 13:58:49.
+Calculating T-Matrix
+Took 0.001750349998474121 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.981690724690756e-6 minutes
+Computing S11&S21 Partition
+Took 0.000219269593556722 minutes
+Computing S12&S22 Partition
+Took 0.00023351510365804035 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022103508313496907 minutes
+Simulation Terminated at 2026-03-19 13:58:49.
+--------------------
+Simulation Started at 2026-03-19 13:58:49.
+Calculating T-Matrix
+Took 0.001783315340677897 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.798903147379557e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022191603978474934 minutes
+Computing S12&S22 Partition
+Took 0.00022604862848917643 minutes
+Normalizing Scattering Matrix
+Took 2.1855036417643228e-7 minutes
+--------------------------
+Total Simulation Time: 0.002238297462463379 minutes
+Simulation Terminated at 2026-03-19 13:58:49.
+--------------------
+Simulation Started at 2026-03-19 13:58:49.
+Calculating T-Matrix
+Took 0.0017500837643941243 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.647904713948568e-6 minutes
+Computing S11&S21 Partition
+Took 0.00021469990412394205 minutes
+Computing S12&S22 Partition
+Took 0.000236666202545166 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022083322207132974 minutes
+Simulation Terminated at 2026-03-19 13:58:49.
+--------------------
+Simulation Started at 2026-03-19 13:58:49.
+Calculating T-Matrix
+Took 0.0017608165740966796 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.6677729288736975e-6 minutes
+Computing S11&S21 Partition
+Took 0.0002199689547220866 minutes
+Computing S12&S22 Partition
+Took 0.00022569894790649414 minutes
+Normalizing Scattering Matrix
+Took 2.5033950805664064e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022134025891621906 minutes
+Simulation Terminated at 2026-03-19 13:58:50.
+--------------------
+Simulation Started at 2026-03-19 13:58:50.
+Calculating T-Matrix
+Took 0.0018935004870096843 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.9340070088704424e-6 minutes
+Computing S11&S21 Partition
+Took 0.0002277851104736328 minutes
+Computing S12&S22 Partition
+Took 0.00023095210393269856 minutes
+Normalizing Scattering Matrix
+Took 2.5033950805664064e-7 minutes
+--------------------------
+Total Simulation Time: 0.0023594220479329427 minutes
+Simulation Terminated at 2026-03-19 13:58:50.
+--------------------
+Simulation Started at 2026-03-19 13:58:50.
+Calculating T-Matrix
+Took 0.0017918666203816731 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.552537282307943e-6 minutes
+Computing S11&S21 Partition
+Took 0.00021993319193522136 minutes
+Computing S12&S22 Partition
+Took 0.00022258361180623373 minutes
+Normalizing Scattering Matrix
+Took 2.662340799967448e-7 minutes
+--------------------------
+Total Simulation Time: 0.002241202195485433 minutes
+Simulation Terminated at 2026-03-19 13:58:50.
+--------------------
+Simulation Started at 2026-03-19 13:58:50.
+Calculating T-Matrix
+Took 0.0017714818318684896 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.798903147379557e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022603273391723632 minutes
+Computing S12&S22 Partition
+Took 0.00022488037745157878 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022294282913208007 minutes
+Simulation Terminated at 2026-03-19 13:58:50.
+--------------------
+Simulation Started at 2026-03-19 13:58:50.
+Calculating T-Matrix
+Took 0.0017651836077372232 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.818771362304688e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022388299306233723 minutes
+Computing S12&S22 Partition
+Took 0.00022041797637939453 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022165377934773764 minutes
+Simulation Terminated at 2026-03-19 13:58:50.
+--------------------
+Simulation Started at 2026-03-19 13:58:50.
+Calculating T-Matrix
+Took 0.0017511645952860515 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.6836675008138025e-6 minutes
+Computing S11&S21 Partition
+Took 0.00023240248362223307 minutes
+Computing S12&S22 Partition
+Took 0.0002248843510945638 minutes
+Normalizing Scattering Matrix
+Took 2.5033950805664064e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022153854370117188 minutes
+Simulation Terminated at 2026-03-19 13:58:50.
+--------------------
+Simulation Started at 2026-03-19 13:58:50.
+Calculating T-Matrix
+Took 0.0017678340276082356 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.834665934244792e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022598505020141602 minutes
+Computing S12&S22 Partition
+Took 0.0002300699551900228 minutes
+Normalizing Scattering Matrix
+Took 2.702077229817708e-7 minutes
+--------------------------
+Total Simulation Time: 0.002230993906656901 minutes
+Simulation Terminated at 2026-03-19 13:58:50.
+--------------------
+Simulation Started at 2026-03-19 13:58:50.
+Calculating T-Matrix
+Took 0.0017685691515604656 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.802876790364584e-6 minutes
+Computing S11&S21 Partition
+Took 0.00021676619847615559 minutes
+Computing S12&S22 Partition
+Took 0.00022811492284138997 minutes
+Normalizing Scattering Matrix
+Took 2.662340799967448e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022205193837483723 minutes
+Simulation Terminated at 2026-03-19 13:58:51.
+--------------------
+Simulation Started at 2026-03-19 13:58:51.
+Calculating T-Matrix
+Took 0.001774450143178304 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.918112436930338e-6 minutes
+Computing S11&S21 Partition
+Took 0.00021848281224568685 minutes
+Computing S12&S22 Partition
+Took 0.00022159814834594728 minutes
+Normalizing Scattering Matrix
+Took 2.0265579223632812e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022216518719991047 minutes
+Simulation Terminated at 2026-03-19 13:58:51.
+--------------------
+Simulation Started at 2026-03-19 13:58:51.
+Calculating T-Matrix
+Took 0.0017692168553670247 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.882349650065104e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022641817728678385 minutes
+Computing S12&S22 Partition
+Took 0.00022686719894409179 minutes
+Normalizing Scattering Matrix
+Took 2.5033950805664064e-7 minutes
+--------------------------
+Total Simulation Time: 0.002229634920756022 minutes
+Simulation Terminated at 2026-03-19 13:58:51.
+--------------------
+Simulation Started at 2026-03-19 14:00:02.
+Calculating T-Matrix
+Took 0.0019724170366923013 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.3498814900716145e-6 minutes
+Computing S11&S21 Partition
+Took 0.00023636817932128906 minutes
+Computing S12&S22 Partition
+Took 0.00019420385360717772 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.0024095733960469564 minutes
+Simulation Terminated at 2026-03-19 14:00:02.
+--------------------
+Simulation Started at 2026-03-19 14:00:02.
+Calculating T-Matrix
+Took 0.0017023523648579916 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.282329559326172e-6 minutes
+Computing S11&S21 Partition
+Took 0.0002104322115580241 minutes
+Computing S12&S22 Partition
+Took 0.00022284984588623048 minutes
+Normalizing Scattering Matrix
+Took 1.986821492513021e-7 minutes
+--------------------------
+Total Simulation Time: 0.0021421154340108234 minutes
+Simulation Terminated at 2026-03-19 14:00:02.
+--------------------
+Simulation Started at 2026-03-19 14:00:02.
+Calculating T-Matrix
+Took 0.001788183053334554 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.3498814900716145e-6 minutes
+Computing S11&S21 Partition
+Took 0.00021166801452636718 minutes
+Computing S12&S22 Partition
+Took 0.00022248427073160806 minutes
+Normalizing Scattering Matrix
+Took 2.8212865193684896e-7 minutes
+--------------------------
+Total Simulation Time: 0.002228967348734538 minutes
+Simulation Terminated at 2026-03-19 14:00:02.
+--------------------
+Simulation Started at 2026-03-19 14:00:02.
+Calculating T-Matrix
+Took 0.0017532149950663248 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.6677729288736975e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022376775741577147 minutes
+Computing S12&S22 Partition
+Took 0.00022531747817993163 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.0022092024485270184 minutes
+Simulation Terminated at 2026-03-19 14:00:02.
+--------------------
+Simulation Started at 2026-03-19 14:00:02.
+Calculating T-Matrix
+Took 0.0017141342163085938 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.250540415445963e-6 minutes
+Computing S11&S21 Partition
+Took 0.00022150278091430663 minutes
+Computing S12&S22 Partition
+Took 0.00022223393122355143 minutes
+Normalizing Scattering Matrix
+Took 2.662340799967448e-7 minutes
+--------------------------
+Total Simulation Time: 0.0021643877029418946 minutes
+Simulation Terminated at 2026-03-19 14:00:03.
+--------------------
+Simulation Started at 2026-03-19 14:00:03.
+Calculating T-Matrix
+Took 0.001732468605041504 minutes
+Calculating S-Vector
+LU Decomposition
+Took 6.365776062011719e-6 minutes
+Computing S11&S21 Partition
+Took 0.0002178470293680827 minutes
+Computing S12&S22 Partition
+Took 0.00023008584976196288 minutes
+Normalizing Scattering Matrix
+Took 2.3047129313151042e-7 minutes
+--------------------------
+Total Simulation Time: 0.0021869977315266925 minutes
+Simulation Terminated at 2026-03-19 14:00:03.
+--------------------
+Simulation Started at 2026-03-19 14:08:31.
+Calculating T-Matrix
+Took 0.011054484049479167 minutes
+Calculating S-Vector
+LU Decomposition
+Took 8.634726206461589e-6 minutes
+Computing S11&S21 Partition
+Took 0.006443981329600016 minutes
+Computing S12&S22 Partition
+Took 0.0003843824068705241 minutes
+Normalizing Scattering Matrix
+Took 7.828076680501302e-7 minutes
+--------------------------
+Total Simulation Time: 0.01789226531982422 minutes
+Simulation Terminated at 2026-03-19 14:08:32.
+--------------------
+Simulation Started at 2026-03-19 14:08:57.
+Calculating T-Matrix
+Took 0.0064754525820414225 minutes
+Calculating S-Vector
+LU Decomposition
+Took 3.6315123240152994e-5 minutes
+Computing S11&S21 Partition
+Took 0.0004828492800394694 minutes
+Computing S12&S22 Partition
+Took 0.00040241479873657224 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.007397266228993734 minutes
+Simulation Terminated at 2026-03-19 14:08:58.
+--------------------
+Simulation Started at 2026-03-19 14:08:59.
+Calculating T-Matrix
+Took 0.024332714080810548 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00023693243662516276 minutes
+Computing S11&S21 Partition
+Took 0.0008830507596333822 minutes
+Computing S12&S22 Partition
+Took 0.0008322636286417644 minutes
+Normalizing Scattering Matrix
+Took 2.1457672119140626e-7 minutes
+--------------------------
+Total Simulation Time: 0.026285175482432047 minutes
+Simulation Terminated at 2026-03-19 14:09:00.
+--------------------
+Simulation Started at 2026-03-19 14:09:00.
+Calculating T-Matrix
+Took 0.02272571325302124 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00023655096689860025 minutes
+Computing S11&S21 Partition
+Took 0.0009442488352457682 minutes
+Computing S12&S22 Partition
+Took 0.0009029507637023926 minutes
+Normalizing Scattering Matrix
+Took 2.463658650716146e-7 minutes
+--------------------------
+Total Simulation Time: 0.02480971018473307 minutes
+Simulation Terminated at 2026-03-19 14:09:02.
+--------------------
+Simulation Started at 2026-03-19 14:09:03.
+Calculating T-Matrix
+Took 0.01593428055445353 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012748241424560548 minutes
+Computing S11&S21 Partition
+Took 0.000728150208791097 minutes
+Computing S12&S22 Partition
+Took 0.0006794015566507976 minutes
+Normalizing Scattering Matrix
+Took 2.980232238769531e-7 minutes
+--------------------------
+Total Simulation Time: 0.01746961275736491 minutes
+Simulation Terminated at 2026-03-19 14:09:04.
+--------------------
+Simulation Started at 2026-03-19 14:09:04.
+Calculating T-Matrix
+Took 0.014811217784881592 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012640158335367838 minutes
+Computing S11&S21 Partition
+Took 0.0007608652114868164 minutes
+Computing S12&S22 Partition
+Took 0.0007322311401367187 minutes
+Normalizing Scattering Matrix
+Took 2.1855036417643228e-7 minutes
+--------------------------
+Total Simulation Time: 0.01643093427022298 minutes
+Simulation Terminated at 2026-03-19 14:09:05.
+--------------------
+Simulation Started at 2026-03-19 14:14:03.
+Calculating T-Matrix
+Took 0.015458520253499348 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012296438217163086 minutes
+Computing S11&S21 Partition
+Took 0.0007302363713582357 minutes
+Computing S12&S22 Partition
+Took 0.0006543159484863281 minutes
+Normalizing Scattering Matrix
+Took 2.8212865193684896e-7 minutes
+--------------------------
+Total Simulation Time: 0.01696631908416748 minutes
+Simulation Terminated at 2026-03-19 14:14:04.
+--------------------
+Simulation Started at 2026-03-19 14:14:04.
+Calculating T-Matrix
+Took 0.014835802714029948 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012421607971191406 minutes
+Computing S11&S21 Partition
+Took 0.0007149855295817058 minutes
+Computing S12&S22 Partition
+Took 0.0006861686706542969 minutes
+Normalizing Scattering Matrix
+Took 2.8212865193684896e-7 minutes
+--------------------------
+Total Simulation Time: 0.016361455122629803 minutes
+Simulation Terminated at 2026-03-19 14:14:05.
+--------------------
+Simulation Started at 2026-03-19 14:14:06.
+Calculating T-Matrix
+Took 0.01598528226216634 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012784798940022787 minutes
+Computing S11&S21 Partition
+Took 0.0007337649663289388 minutes
+Computing S12&S22 Partition
+Took 0.0007231990496317545 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.01757032871246338 minutes
+Simulation Terminated at 2026-03-19 14:14:07.
+--------------------
+Simulation Started at 2026-03-19 14:14:07.
+Calculating T-Matrix
+Took 0.014362263679504394 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012289683024088542 minutes
+Computing S11&S21 Partition
+Took 0.0007158478101094563 minutes
+Computing S12&S22 Partition
+Took 0.0007226149241129558 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.01592385768890381 minutes
+Simulation Terminated at 2026-03-19 14:14:08.
+--------------------
+Simulation Started at 2026-03-19 14:14:39.
+Calculating T-Matrix
+Took 0.014248951276143392 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.0001233816146850586 minutes
+Computing S11&S21 Partition
+Took 0.0007220347722371419 minutes
+Computing S12&S22 Partition
+Took 0.0007273674011230469 minutes
+Normalizing Scattering Matrix
+Took 2.3047129313151042e-7 minutes
+--------------------------
+Total Simulation Time: 0.01582196553548177 minutes
+Simulation Terminated at 2026-03-19 14:14:40.
+--------------------
+Simulation Started at 2026-03-19 14:14:40.
+Calculating T-Matrix
+Took 0.014105681578318279 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012453397115071615 minutes
+Computing S11&S21 Partition
+Took 0.0007254838943481446 minutes
+Computing S12&S22 Partition
+Took 0.0007134517033894857 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.015669385592142742 minutes
+Simulation Terminated at 2026-03-19 14:14:41.
+--------------------
+Simulation Started at 2026-03-19 14:14:43.
+Calculating T-Matrix
+Took 0.014313765366872152 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012403329213460287 minutes
+Computing S11&S21 Partition
+Took 0.0007244825363159179 minutes
+Computing S12&S22 Partition
+Took 0.0007245500882466634 minutes
+Normalizing Scattering Matrix
+Took 2.5033950805664064e-7 minutes
+--------------------------
+Total Simulation Time: 0.015887081623077393 minutes
+Simulation Terminated at 2026-03-19 14:14:44.
+--------------------
+Simulation Started at 2026-03-19 14:14:44.
+Calculating T-Matrix
+Took 0.014474733670552572 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.0001231988271077474 minutes
+Computing S11&S21 Partition
+Took 0.0007259647051493326 minutes
+Computing S12&S22 Partition
+Took 0.0007433652877807617 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.01606749693552653 minutes
+Simulation Terminated at 2026-03-19 14:14:45.
+--------------------
+Simulation Started at 2026-03-19 14:14:55.
+Calculating T-Matrix
+Took 0.014856231212615967 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012443463007609049 minutes
+Computing S11&S21 Partition
+Took 0.000742801030476888 minutes
+Computing S12&S22 Partition
+Took 0.0007186651229858399 minutes
+Normalizing Scattering Matrix
+Took 2.3444493611653645e-7 minutes
+--------------------------
+Total Simulation Time: 0.016442366441090903 minutes
+Simulation Terminated at 2026-03-19 14:14:56.
+--------------------
+Simulation Started at 2026-03-19 14:14:56.
+Calculating T-Matrix
+Took 0.014250679810841878 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012493530909220377 minutes
+Computing S11&S21 Partition
+Took 0.0007376472155253092 minutes
+Computing S12&S22 Partition
+Took 0.0007163842519124348 minutes
+Normalizing Scattering Matrix
+Took 2.5033950805664064e-7 minutes
+--------------------------
+Total Simulation Time: 0.01582989692687988 minutes
+Simulation Terminated at 2026-03-19 14:14:57.
+--------------------
+Simulation Started at 2026-03-19 14:15:00.
+Calculating T-Matrix
+Took 0.014527185757954916 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012523333231608073 minutes
+Computing S11&S21 Partition
+Took 0.000733033816019694 minutes
+Computing S12&S22 Partition
+Took 0.0007725318272908528 minutes
+Normalizing Scattering Matrix
+Took 2.3047129313151042e-7 minutes
+--------------------------
+Total Simulation Time: 0.016158215204874673 minutes
+Simulation Terminated at 2026-03-19 14:15:01.
+--------------------
+Simulation Started at 2026-03-19 14:15:01.
+Calculating T-Matrix
+Took 0.014463551839192708 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.00012636979420979817 minutes
+Computing S11&S21 Partition
+Took 0.000751348336537679 minutes
+Computing S12&S22 Partition
+Took 0.000892786184946696 minutes
+Normalizing Scattering Matrix
+Took 2.662340799967448e-7 minutes
+--------------------------
+Total Simulation Time: 0.01623432238896688 minutes
+Simulation Terminated at 2026-03-19 14:15:02.
+--------------------
+Simulation Started at 2026-03-19 14:39:40.
+Calculating T-Matrix
+Took 0.02202298641204834 minutes
+Calculating S-Vector
+LU Decomposition
+Took 5.5448214213053385e-5 minutes
+Computing S11&S21 Partition
+Took 0.01324841578801473 minutes
+Computing S12&S22 Partition
+Took 0.000660550594329834 minutes
+Normalizing Scattering Matrix
+Took 1.1165936787923178e-6 minutes
+--------------------------
+Total Simulation Time: 0.03598851760228475 minutes
+Simulation Terminated at 2026-03-19 14:39:42.
+--------------------
+Simulation Started at 2026-03-19 14:39:52.
+Calculating T-Matrix
+Took 0.00817859967549642 minutes
+Calculating S-Vector
+LU Decomposition
+Took 1.8966197967529296e-5 minutes
+Computing S11&S21 Partition
+Took 0.0005524476369222005 minutes
+Computing S12&S22 Partition
+Took 0.0004774332046508789 minutes
+Normalizing Scattering Matrix
+Took 4.3312708536783854e-7 minutes
+--------------------------
+Total Simulation Time: 0.009227879842122396 minutes
+Simulation Terminated at 2026-03-19 14:39:53.
+--------------------
+Simulation Started at 2026-03-19 14:39:54.
+Calculating T-Matrix
+Took 0.45142696698506674 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.014576900005340575 minutes
+Computing S11&S21 Partition
+Took 0.01816168228785197 minutes
+Computing S12&S22 Partition
+Took 0.012005531787872314 minutes
+Normalizing Scattering Matrix
+Took 1.5632311503092447e-5 minutes
+--------------------------
+Total Simulation Time: 0.4961867133776347 minutes
+Simulation Terminated at 2026-03-19 14:40:23.
+--------------------
+Simulation Started at 2026-03-19 14:40:58.
+Calculating T-Matrix
+Took 0.4479810158411662 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.0135427991549174 minutes
+Computing S11&S21 Partition
+Took 0.010903481642405193 minutes
+Computing S12&S22 Partition
+Took 0.009714603424072266 minutes
+Normalizing Scattering Matrix
+Took 6.516774495442708e-7 minutes
+--------------------------
+Total Simulation Time: 0.4821425517400106 minutes
+Simulation Terminated at 2026-03-19 14:41:27.
+--------------------
+Simulation Started at 2026-03-19 14:41:27.
+Calculating T-Matrix
+Took 0.5883197824160258 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.015976019700368247 minutes
+Computing S11&S21 Partition
+Took 0.012444464365641277 minutes
+Computing S12&S22 Partition
+Took 0.012548418839772542 minutes
+Normalizing Scattering Matrix
+Took 1.3192494710286458e-6 minutes
+--------------------------
+Total Simulation Time: 0.6292900045712789 minutes
+Simulation Terminated at 2026-03-19 14:42:05.
+--------------------
+Simulation Started at 2026-03-19 14:42:05.
+Calculating T-Matrix
+Took 0.5801553328831991 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.018614983558654784 minutes
+Computing S11&S21 Partition
+Took 0.01920663515726725 minutes
+Computing S12&S22 Partition
+Took 0.013736053307851156 minutes
+Normalizing Scattering Matrix
+Took 1.2000401814778646e-6 minutes
+--------------------------
+Total Simulation Time: 0.6317142049471537 minutes
+Simulation Terminated at 2026-03-19 14:42:43.
+--------------------
+Simulation Started at 2026-03-19 14:42:43.
+Calculating T-Matrix
+Took 0.5503148158391317 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013066248099009196 minutes
+Computing S11&S21 Partition
+Took 0.009294931093851726 minutes
+Computing S12&S22 Partition
+Took 0.009277248382568359 minutes
+Normalizing Scattering Matrix
+Took 4.3312708536783854e-7 minutes
+--------------------------
+Total Simulation Time: 0.5819536765416463 minutes
+Simulation Terminated at 2026-03-19 14:43:17.
+--------------------
+Simulation Started at 2026-03-19 14:43:17.
+Calculating T-Matrix
+Took 4.274821786085765 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.018278233210245767 minutes
+Computing S11&S21 Partition
+Took 0.013800652821858723 minutes
+Computing S12&S22 Partition
+Took 0.01355808178583781 minutes
+Normalizing Scattering Matrix
+Took 7.033348083496094e-7 minutes
+--------------------------
+Total Simulation Time: 4.320459457238515 minutes
+Simulation Terminated at 2026-03-19 14:47:37.
+--------------------
+Simulation Started at 2026-03-19 14:47:37.
+Calculating T-Matrix
+Took 10.375095697244008 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013564217090606689 minutes
+Computing S11&S21 Partition
+Took 0.011226952075958252 minutes
+Computing S12&S22 Partition
+Took 0.015108184019724528 minutes
+Normalizing Scattering Matrix
+Took 6.000200907389323e-7 minutes
+--------------------------
+Total Simulation Time: 10.414995650450388 minutes
+Simulation Terminated at 2026-03-19 14:58:02.
+--------------------
+Simulation Started at 2026-03-19 14:58:02.
+Calculating T-Matrix
+Took 1.5002053499221801 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013230248292287191 minutes
+Computing S11&S21 Partition
+Took 0.010876882076263427 minutes
+Computing S12&S22 Partition
+Took 0.012404282887776693 minutes
+Normalizing Scattering Matrix
+Took 5.68230946858724e-7 minutes
+--------------------------
+Total Simulation Time: 1.5367173314094544 minutes
+Simulation Terminated at 2026-03-19 14:59:34.
+--------------------
+Simulation Started at 2026-03-19 14:59:34.
+Calculating T-Matrix
+Took 6.141880297660828 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013462531566619872 minutes
+Computing S11&S21 Partition
+Took 0.011396233240763347 minutes
+Computing S12&S22 Partition
+Took 0.014388283093770346 minutes
+Normalizing Scattering Matrix
+Took 6.159146626790365e-7 minutes
+--------------------------
+Total Simulation Time: 6.181127961476644 minutes
+Simulation Terminated at 2026-03-19 15:05:45.
+--------------------
+Simulation Started at 2026-03-19 15:05:45.
+Calculating T-Matrix
+Took 0.5222066164016723 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.014811249574025472 minutes
+Computing S11&S21 Partition
+Took 0.009383936723073324 minutes
+Computing S12&S22 Partition
+Took 0.009257264931996663 minutes
+Normalizing Scattering Matrix
+Took 5.841255187988282e-7 minutes
+--------------------------
+Total Simulation Time: 0.5556596517562866 minutes
+Simulation Terminated at 2026-03-19 15:06:18.
+--------------------
+Simulation Started at 2026-03-19 15:06:18.
+Calculating T-Matrix
+Took 0.43235731522242227 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013282465934753417 minutes
+Computing S11&S21 Partition
+Took 0.013992102940877278 minutes
+Computing S12&S22 Partition
+Took 0.009470514456431071 minutes
+Normalizing Scattering Matrix
+Took 1.2159347534179687e-6 minutes
+--------------------------
+Total Simulation Time: 0.4691036144892375 minutes
+Simulation Terminated at 2026-03-19 15:06:46.
+--------------------
+Simulation Started at 2026-03-19 15:06:46.
+Calculating T-Matrix
+Took 0.4321259021759033 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.01308974822362264 minutes
+Computing S11&S21 Partition
+Took 0.009447336196899414 minutes
+Computing S12&S22 Partition
+Took 0.009869035085042317 minutes
+Normalizing Scattering Matrix
+Took 4.3312708536783854e-7 minutes
+--------------------------
+Total Simulation Time: 0.46453245480855304 minutes
+Simulation Terminated at 2026-03-19 15:07:14.
+--------------------
+Simulation Started at 2026-03-19 15:07:14.
+Calculating T-Matrix
+Took 0.430816916624705 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013184150060017904 minutes
+Computing S11&S21 Partition
+Took 0.01077628533045451 minutes
+Computing S12&S22 Partition
+Took 0.009410734971364338 minutes
+Normalizing Scattering Matrix
+Took 4.3312708536783854e-7 minutes
+--------------------------
+Total Simulation Time: 0.4641885201136271 minutes
+Simulation Terminated at 2026-03-19 15:07:42.
+--------------------
+Simulation Started at 2026-03-19 15:07:42.
+Calculating T-Matrix
+Took 0.43222416639328004 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.01327064832051595 minutes
+Computing S11&S21 Partition
+Took 0.011011151472727458 minutes
+Computing S12&S22 Partition
+Took 0.010760653018951415 minutes
+Normalizing Scattering Matrix
+Took 4.80810801188151e-7 minutes
+--------------------------
+Total Simulation Time: 0.467267100016276 minutes
+Simulation Terminated at 2026-03-19 15:08:10.
+--------------------
+Simulation Started at 2026-03-19 15:08:10.
+Calculating T-Matrix
+Took 0.44060893456141154 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013601283232371012 minutes
+Computing S11&S21 Partition
+Took 0.010953434308369954 minutes
+Computing S12&S22 Partition
+Took 0.01056048075358073 minutes
+Normalizing Scattering Matrix
+Took 4.80810801188151e-7 minutes
+--------------------------
+Total Simulation Time: 0.4757246136665344 minutes
+Simulation Terminated at 2026-03-19 15:08:39.
+--------------------
+Simulation Started at 2026-03-19 15:08:39.
+Calculating T-Matrix
+Took 0.4442602515220642 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.0136122465133667 minutes
+Computing S11&S21 Partition
+Took 0.011051952838897705 minutes
+Computing S12&S22 Partition
+Took 0.010987146695454916 minutes
+Normalizing Scattering Matrix
+Took 4.6491622924804686e-7 minutes
+--------------------------
+Total Simulation Time: 0.47991206248601276 minutes
+Simulation Terminated at 2026-03-19 15:09:08.
+--------------------
+Simulation Started at 2026-03-19 15:09:08.
+Calculating T-Matrix
+Took 0.439708948135376 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.01348871390024821 minutes
+Computing S11&S21 Partition
+Took 0.010687716801961263 minutes
+Computing S12&S22 Partition
+Took 0.010948248704274495 minutes
+Normalizing Scattering Matrix
+Took 4.847844441731771e-7 minutes
+--------------------------
+Total Simulation Time: 0.4748341123263041 minutes
+Simulation Terminated at 2026-03-19 15:09:36.
+--------------------
+Simulation Started at 2026-03-19 15:09:36.
+Calculating T-Matrix
+Took 0.43936619758605955 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013549184799194336 minutes
+Computing S11&S21 Partition
+Took 0.013003400961558024 minutes
+Computing S12&S22 Partition
+Took 0.012539899349212647 minutes
+Normalizing Scattering Matrix
+Took 4.6491622924804686e-7 minutes
+--------------------------
+Total Simulation Time: 0.47845914761225383 minutes
+Simulation Terminated at 2026-03-19 15:10:05.
+--------------------
+Simulation Started at 2026-03-19 15:10:05.
+Calculating T-Matrix
+Took 0.44062610069910685 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013494002819061279 minutes
+Computing S11&S21 Partition
+Took 0.010631783803304037 minutes
+Computing S12&S22 Partition
+Took 0.010883434613545736 minutes
+Normalizing Scattering Matrix
+Took 4.688898722330729e-7 minutes
+--------------------------
+Total Simulation Time: 0.47563579082489016 minutes
+Simulation Terminated at 2026-03-19 15:10:33.
+--------------------
+Simulation Started at 2026-03-19 15:10:33.
+Calculating T-Matrix
+Took 0.4394196669260661 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013588166236877442 minutes
+Computing S11&S21 Partition
+Took 0.010999000072479248 minutes
+Computing S12&S22 Partition
+Took 0.0135794202486674 minutes
+Normalizing Scattering Matrix
+Took 4.847844441731771e-7 minutes
+--------------------------
+Total Simulation Time: 0.4775867382685343 minutes
+Simulation Terminated at 2026-03-19 15:11:02.
+--------------------
+Simulation Started at 2026-03-19 15:11:02.
+Calculating T-Matrix
+Took 0.4397289673487345 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013470248381296793 minutes
+Computing S11&S21 Partition
+Took 0.011356067657470704 minutes
+Computing S12&S22 Partition
+Took 0.01093596617380778 minutes
+Normalizing Scattering Matrix
+Took 4.80810801188151e-7 minutes
+--------------------------
+Total Simulation Time: 0.475491730372111 minutes
+Simulation Terminated at 2026-03-19 15:11:31.
+--------------------
+Simulation Started at 2026-03-19 15:11:31.
+Calculating T-Matrix
+Took 0.4397846857706706 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013829716046651204 minutes
+Computing S11&S21 Partition
+Took 0.010655967394510905 minutes
+Computing S12&S22 Partition
+Took 0.011094983418782551 minutes
+Normalizing Scattering Matrix
+Took 4.688898722330729e-7 minutes
+--------------------------
+Total Simulation Time: 0.47536582152048745 minutes
+Simulation Terminated at 2026-03-19 15:11:59.
+--------------------
+Simulation Started at 2026-03-19 15:11:59.
+Calculating T-Matrix
+Took 0.44261191685994467 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013402930895487468 minutes
+Computing S11&S21 Partition
+Took 0.010831165313720702 minutes
+Computing S12&S22 Partition
+Took 0.010674850145975748 minutes
+Normalizing Scattering Matrix
+Took 4.6491622924804686e-7 minutes
+--------------------------
+Total Simulation Time: 0.47752132813135784 minutes
+Simulation Terminated at 2026-03-19 15:12:28.
+--------------------
+Simulation Started at 2026-03-19 15:12:28.
+Calculating T-Matrix
+Took 0.44207425117492677 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013498449325561523 minutes
+Computing S11&S21 Partition
+Took 0.010663366317749024 minutes
+Computing S12&S22 Partition
+Took 0.010792768001556397 minutes
+Normalizing Scattering Matrix
+Took 5.165735880533854e-7 minutes
+--------------------------
+Total Simulation Time: 0.47702935139338176 minutes
+Simulation Terminated at 2026-03-19 15:12:57.
+--------------------
+Simulation Started at 2026-03-19 15:12:57.
+Calculating T-Matrix
+Took 0.438040300210317 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013628800710042318 minutes
+Computing S11&S21 Partition
+Took 0.010660918553670247 minutes
+Computing S12&S22 Partition
+Took 0.01076649824778239 minutes
+Normalizing Scattering Matrix
+Took 5.006790161132813e-7 minutes
+--------------------------
+Total Simulation Time: 0.473097018400828 minutes
+Simulation Terminated at 2026-03-19 15:13:25.
+--------------------
+Simulation Started at 2026-03-19 15:13:25.
+Calculating T-Matrix
+Took 0.44071553150812787 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.01341708501180013 minutes
+Computing S11&S21 Partition
+Took 0.01083003282546997 minutes
+Computing S12&S22 Partition
+Took 0.010618619124094645 minutes
+Normalizing Scattering Matrix
+Took 4.6491622924804686e-7 minutes
+--------------------------
+Total Simulation Time: 0.47558173338572185 minutes
+Simulation Terminated at 2026-03-19 15:13:54.
+--------------------
+Simulation Started at 2026-03-19 15:13:54.
+Calculating T-Matrix
+Took 0.4377649346987406 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013809168338775634 minutes
+Computing S11&S21 Partition
+Took 0.010624682903289795 minutes
+Computing S12&S22 Partition
+Took 0.010717034339904785 minutes
+Normalizing Scattering Matrix
+Took 4.6491622924804686e-7 minutes
+--------------------------
+Total Simulation Time: 0.4729162851969401 minutes
+Simulation Terminated at 2026-03-19 15:14:22.
+--------------------
+Simulation Started at 2026-03-19 15:14:22.
+Calculating T-Matrix
+Took 0.43654401699701945 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013531967004140218 minutes
+Computing S11&S21 Partition
+Took 0.010770750045776368 minutes
+Computing S12&S22 Partition
+Took 0.013360051314036052 minutes
+Normalizing Scattering Matrix
+Took 5.364418029785156e-7 minutes
+--------------------------
+Total Simulation Time: 0.4742073218027751 minutes
+Simulation Terminated at 2026-03-19 15:14:50.
+--------------------
+Simulation Started at 2026-03-19 15:14:50.
+Calculating T-Matrix
+Took 0.4400281031926473 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013360532124837239 minutes
+Computing S11&S21 Partition
+Took 0.010967214902242025 minutes
+Computing S12&S22 Partition
+Took 0.01054069995880127 minutes
+Normalizing Scattering Matrix
+Took 6.000200907389323e-7 minutes
+--------------------------
+Total Simulation Time: 0.47489715019861856 minutes
+Simulation Terminated at 2026-03-19 15:15:19.
+--------------------
+Simulation Started at 2026-03-19 15:15:19.
+Calculating T-Matrix
+Took 0.4369322180747986 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013755214214324952 minutes
+Computing S11&S21 Partition
+Took 0.010765298207600912 minutes
+Computing S12&S22 Partition
+Took 0.01070483128229777 minutes
+Normalizing Scattering Matrix
+Took 4.847844441731771e-7 minutes
+--------------------------
+Total Simulation Time: 0.4721580465634664 minutes
+Simulation Terminated at 2026-03-19 15:15:47.
+--------------------
+Simulation Started at 2026-03-19 15:15:47.
+Calculating T-Matrix
+Took 0.4396557331085205 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.01352365016937256 minutes
+Computing S11&S21 Partition
+Took 0.010584898789723714 minutes
+Computing S12&S22 Partition
+Took 0.010629785060882569 minutes
+Normalizing Scattering Matrix
+Took 4.490216573079427e-7 minutes
+--------------------------
+Total Simulation Time: 0.47439451615015665 minutes
+Simulation Terminated at 2026-03-19 15:16:16.
+--------------------
+Simulation Started at 2026-03-19 15:16:16.
+Calculating T-Matrix
+Took 0.43787748416264854 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.013511264324188232 minutes
+Computing S11&S21 Partition
+Took 0.01074213186899821 minutes
+Computing S12&S22 Partition
+Took 0.010708868503570557 minutes
+Normalizing Scattering Matrix
+Took 5.483627319335937e-7 minutes
+--------------------------
+Total Simulation Time: 0.47284029722213744 minutes
+Simulation Terminated at 2026-03-19 15:16:44.
+--------------------
+Simulation Started at 2026-03-24 14:01:45.
+Calculating T-Matrix
+--------------------
+Simulation Started at 2026-03-24 14:03:02.
+Calculating T-Matrix
+Took 0.16010555028915405 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.002443532148996989 minutes
+Computing S11&S21 Partition
+Took 0.020766051610310872 minutes
+Computing S12&S22 Partition
+Took 0.0044823169708251955 minutes
+Normalizing Scattering Matrix
+Took 1.5815099080403647e-6 minutes
+--------------------------
+Total Simulation Time: 0.18779903252919514 minutes
+Simulation Terminated at 2026-03-24 14:03:13.
+--------------------
+Simulation Started at 2026-03-24 14:03:13.
+Calculating T-Matrix
+Took 0.1428038477897644 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.002275967597961426 minutes
+Computing S11&S21 Partition
+Took 0.00423213243484497 minutes
+Computing S12&S22 Partition
+Took 0.004347503185272217 minutes
+Normalizing Scattering Matrix
+Took 4.1325887044270835e-7 minutes
+--------------------------
+Total Simulation Time: 0.15365986426671346 minutes
+Simulation Terminated at 2026-03-24 14:03:22.
+--------------------
+Simulation Started at 2026-03-24 14:04:41.
+Calculating T-Matrix
+Took 0.6371299187342326 minutes
+Calculating S-Vector
+LU Decomposition
+Took 0.021227431297302247 minutes
+Computing S11&S21 Partition
+Took 0.028680014610290527 minutes
+Computing S12&S22 Partition
+Took 0.015101885795593262 minutes
+Normalizing Scattering Matrix
+Took 1.633167266845703e-6 minutes
+--------------------------
+Total Simulation Time: 0.7021408836046855 minutes
+Simulation Terminated at 2026-03-24 14:05:23.
+--------------------
+Simulation Started at 2026-03-24 15:34:01.
+Calculating T-Matrix
+Took 0.02328711748123169 minutes
+Calculating S-Vector
+LU Decomposition
+Took 5.054871241251628e-5 minutes
+Computing S11&S21 Partition
+Took 0.013563283284505208 minutes
+Computing S12&S22 Partition
+Took 0.0009050806363423666 minutes
+Normalizing Scattering Matrix
+Took 1.71661376953125e-6 minutes
+--------------------------
+Total Simulation Time: 0.03780774672826131 minutes
+Simulation Terminated at 2026-03-24 15:34:04.

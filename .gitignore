@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Julia
+Manifest.toml
+
+# Generated outputs
+*.npz
+*.npy
+*.mp4
+*.gif
+*.avi
+*.mat
+
+# IDE / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Large data
+svd_results/
+nyx_matfiles/
