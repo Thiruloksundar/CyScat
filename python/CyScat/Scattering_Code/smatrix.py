@@ -279,3 +279,177 @@ def _extract_scalar(val):
     if isinstance(val, np.ndarray):
         return float(val.flatten()[0])
     return val
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Precomputed S-matrix interface (for efficient optimization over n and r)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def smatrix_precompute(clocs, cmmaxs, period, lambda_wave, nmax, d, sp, interaction='On'):
+    """
+    Precompute position-dependent quantities for fast S-matrix evaluation.
+
+    Call once per cylinder configuration, then use smatrix_from_precomputed()
+    to cheaply evaluate S-matrices for different n or r values.  The T-matrix
+    (expensive) depends only on positions; only the Mie coefficients change
+    with material properties.
+
+    Returns a dict to pass to smatrix_from_precomputed().
+    """
+    k = 2 * np.pi / lambda_wave
+    phiinc = sp['phiinc']
+    total_steps = len(cmmaxs) * (len(cmmaxs) - 1) // 2 + 2 * (2 * nmax + 1)
+
+    print('  Precomputing T-Matrix...')
+    sys.stdout.flush()
+    t0 = time.time()
+    if interaction == 'On':
+        t = transall(clocs, cmmaxs, period, lambda_wave, phiinc, sp, total_steps)
+    else:
+        t = transall(clocs, cmmaxs, -1, lambda_wave, phiinc, sp, total_steps)
+    print(f'  T-Matrix: {time.time()-t0:.1f}s')
+
+    num_modes = 2 * nmax + 1
+    kxex_all = np.array([
+        _extract_scalar(sp['kxs'][sp['MiddleIndex'] + nin])
+        for nin in range(-nmax, nmax + 1)
+    ])
+
+    # Incident field vectors (depend only on positions)
+    V_up   = _vall_batch(clocs, cmmaxs, kxex_all, k, up_down=1)
+    V_down = _vall_batch(clocs, cmmaxs, kxex_all, k, up_down=-1, y_shift=-d)
+
+    # Projection matrices (depend only on positions)
+    W1_up, W2_up     = _build_projection_matrices(clocs, cmmaxs, nmax, d, sp, up_down=1)
+    W1_down, W2_down = _build_projection_matrices(clocs, cmmaxs, nmax, d, sp, up_down=-1, y_shift=-d)
+
+    # Normalization matrices
+    m_half = np.arange(-nmax, nmax + 1)
+    m_full = np.concatenate([m_half, m_half])
+    kxs_norm = 2 * np.pi / period * m_full
+    kys_norm = ky(k, kxs_norm)
+    P1 = np.diag(np.sqrt(k / kys_norm))
+    P2 = np.diag(np.sqrt(kys_norm / k))
+
+    # Direct-transmission phase correction: exp(-i*ky*d) for each mode
+    phase_corr = np.array([
+        np.exp(-1j * _extract_scalar(sp['kys'][sp['MiddleIndex'] + nin]) * d)
+        for nin in range(-nmax, nmax + 1)
+    ])
+
+    return {
+        't':         t,
+        'V_up':      V_up,
+        'V_down':    V_down,
+        'W1_up':     W1_up,
+        'W2_up':     W2_up,
+        'W1_down':   W1_down,
+        'W2_down':   W2_down,
+        'P1':        P1,
+        'P2':        P2,
+        'phase_corr': phase_corr,
+        'nmax':      nmax,
+        'd':         d,
+        'nm':        num_modes,
+        'lambda_wave': lambda_wave,
+    }
+
+
+def smatrix_from_precomputed(precomp, cmmaxs, cepmus, crads, lambda_wave, interaction='On'):
+    """
+    Compute S-matrix from precomputed T-matrix with (possibly new) material properties.
+
+    Fully JAX-differentiable w.r.t. cepmus and crads — use jax.grad() or
+    jax.jacobian() to differentiate objective functions through this call.
+
+    Parameters
+    ----------
+    precomp   : dict returned by smatrix_precompute()
+    cmmaxs    : (N,) int array — max mode numbers per cylinder
+    cepmus    : (N,2) array — [[eps, mu], ...] per cylinder (JAX or NumPy)
+    crads     : (N,)  array — radii per cylinder (JAX or NumPy)
+    lambda_wave : float — wavelength
+    interaction : ignored (kept for API symmetry with smatrix())
+    """
+    import jax.numpy as jnp
+
+    t          = jnp.array(precomp['t'],         dtype=jnp.complex128)
+    V_up       = jnp.array(precomp['V_up'],      dtype=jnp.complex128)
+    V_down     = jnp.array(precomp['V_down'],    dtype=jnp.complex128)
+    W1_up      = jnp.array(precomp['W1_up'],     dtype=jnp.complex128)
+    W2_up      = jnp.array(precomp['W2_up'],     dtype=jnp.complex128)
+    W1_down    = jnp.array(precomp['W1_down'],   dtype=jnp.complex128)
+    W2_down    = jnp.array(precomp['W2_down'],   dtype=jnp.complex128)
+    P1         = jnp.array(precomp['P1'],        dtype=jnp.complex128)
+    P2         = jnp.array(precomp['P2'],        dtype=jnp.complex128)
+    phase_corr = jnp.array(precomp['phase_corr'], dtype=jnp.complex128)
+    nm         = precomp['nm']
+
+    # Mie scattering coefficients — JAX-differentiable w.r.t. cepmus, crads
+    s = _sall_jax(cmmaxs, cepmus, crads, lambda_wave)
+
+    # System matrix: z = I - diag(s) @ t
+    z = jnp.eye(len(s), dtype=jnp.complex128) - s[:, None] * t
+
+    # Solve: z @ C = diag(s) @ V
+    C_up   = jnp.linalg.solve(z, s[:, None] * V_up)
+    C_down = jnp.linalg.solve(z, s[:, None] * V_down)
+
+    # Project onto Floquet output modes
+    s11 = W1_up   @ C_up
+    s21 = W2_up   @ C_up
+    s12 = W1_down @ C_down
+    s22 = W2_down @ C_down
+
+    # Add direct-transmission contribution to S21 and S12 (diagonal)
+    s21 = s21 + jnp.diag(phase_corr)
+    s12 = s12 + jnp.diag(phase_corr)
+
+    # Assemble and normalize
+    S = jnp.block([[s11, s12], [s21, s22]])
+    return P2 @ S @ P1
+
+
+def _sall_jax(cmmaxs, cepmus, crads, lambda_wave):
+    """
+    JAX-differentiable Mie scattering coefficients for all cylinders.
+
+    Uses bessel_jax.py (differentiable Bessel/Hankel) instead of scipy.
+    Supports dielectric cylinders only (eps > 0).  PEC cylinders (eps < 0)
+    are handled via jnp.where so the formula stays differentiable.
+    """
+    import jax.numpy as jnp
+    from .bessel_jax import bessel_jv as jv_jax, hankel2 as h2_jax
+
+    k = 2 * jnp.pi / lambda_wave
+    no_cylinders = len(cmmaxs)
+
+    parts = []
+    for icyl in range(no_cylinders):
+        cmmax  = int(cmmaxs[icyl])
+        cepmu  = cepmus[icyl]
+        crad   = crads[icyl]
+
+        # Dielectric branch (always computed; selected by jnp.where below)
+        ki = k * jnp.sqrt(cepmu[0] * cepmu[1] + 0j)
+        a  = jnp.sqrt(cepmu[0] + 0j)
+        b  = jnp.sqrt(cepmu[1] + 0j)
+
+        s_cyl = []
+        for cm in range(-cmmax, cmmax + 1):
+            djk  = (jv_jax(cm-1, crad*k)  - jv_jax(cm+1, crad*k))  / 2
+            djki = (jv_jax(cm-1, crad*ki) - jv_jax(cm+1, crad*ki)) / 2
+            dh2k = (h2_jax(cm-1, crad*k)  - h2_jax(cm+1, crad*k))  / 2
+
+            num = -b * jv_jax(cm, crad*ki) * djk  + a * jv_jax(cm, crad*k) * djki
+            den =  b * jv_jax(cm, crad*ki) * dh2k - a * djki * h2_jax(cm, crad*k)
+            s_dielectric = num / den
+
+            # PEC fallback (epsilon < 0): -J_n(ka) / H2_n(ka)
+            s_pec = -jv_jax(cm, crad*k) / h2_jax(cm, crad*k)
+
+            s_cyl.append(jnp.where(cepmu[0] < 0, s_pec, s_dielectric))
+
+        parts.append(jnp.stack(s_cyl))
+
+    return jnp.concatenate(parts)
