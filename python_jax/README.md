@@ -8,7 +8,6 @@ Translated from MATLAB (Curtis Jin, Prof. Raj Rao Nadakuditi, Prof. Eric Michiel
 
 - Exact AD w.r.t. **positions**, **wavelength**, **refractive index**, and **radius** via `jax.grad` / `jax.jvp`
 - All examples use `Scattering_Code.jax.smatrix` — the fully differentiable pipeline
-- GPU acceleration via JAX/XLA with no code changes
 - Cross-validation notebook comparing JAX AD against Julia ForwardDiff
 
 ## Setup
@@ -18,8 +17,6 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-
-For GPU support, install the appropriate `jax[cuda]` — see the [JAX installation guide](https://jax.readthedocs.io/en/latest/installation.html).
 
 ## Examples
 

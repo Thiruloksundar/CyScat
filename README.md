@@ -26,7 +26,7 @@ Given the S-matrix you can:
 |---|---|---|---|
 | **Directory** | [`julia/`](julia/) | [`python_gpu/`](python_gpu/) | [`python_jax/`](python_jax/) |
 | **AD framework** | ForwardDiff.jl | Finite differences | JAX autodiff |
-| **GPU support** | — | JAX (XLA) | JAX (XLA) |
+| **GPU support** | — | JAX (XLA) | — |
 | **Differentiable w.r.t.** | x, λ, n, r, ω | x, λ, n, r (FD) | x, λ, n, r (exact AD) |
 | **Notebooks** | Pluto | Jupyter | Jupyter |
 

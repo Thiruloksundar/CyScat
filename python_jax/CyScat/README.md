@@ -27,7 +27,6 @@ Given the S-matrix you can:
 - **S-matrix computation** — multiple scattering theory with Modified Shanks Transformation for convergence acceleration
 - **Cascade** — combine S-matrices via the Redheffer star product for multi-layer structures
 - **Full JAX AD** — exact automatic differentiation w.r.t. positions, wavelength, refractive index, and radius via `jax/` subfolder
-- **GPU support** — JAX backend runs on CUDA GPUs with no code changes
 - **Wave field visualization** — animated wave field showing normal incidence vs. optimal wavefront
 - **Optimization** — gradient-based optimization of refractive index and radius
 - **Derivative comparison** — `compare_julia_python_derivatives` notebook cross-checks JAX AD against Julia ForwardDiff
@@ -74,8 +73,6 @@ CyScat/
 pip install -r requirements.txt
 ```
 
-For GPU support, install the appropriate `jax[cuda]` version — see the [JAX installation guide](https://jax.readthedocs.io/en/latest/installation.html).
-
 ## Usage
 
 ### Compute an S-matrix
@@ -102,16 +99,20 @@ tau = np.linalg.svd(S21, compute_uv=False)  # singular values = channel transmis
 ```python
 import jax
 
+# Jacobian of S21 w.r.t. cylinder x-positions
 def S21_flat(x_positions):
     clocs_new = clocs.at[:, 0].set(x_positions)
     S, _ = smatrix(clocs_new, cmmaxs, cepmus, crads, period, wavelength, nmax, thickness, sp, "On")
     return S[nm:, :nm].flatten()
 
-# Jacobian of S21 w.r.t. cylinder x-positions
 J = jax.jacobian(S21_flat, holomorphic=True)(jnp.array(clocs[:, 0]))
 
 # Derivative of S21 w.r.t. wavelength via jvp
-_, dS21_dlam = jax.jvp(lambda lam: smatrix(..., lam, ...), (lam,), (1.0,))
+def S21_vs_lam(lam):
+    S, _ = smatrix(clocs, cmmaxs, cepmus, crads, period, lam, nmax, thickness, sp, "On")
+    return S[nm:, :nm].flatten()
+
+_, dS21_dlam = jax.jvp(S21_vs_lam, (jnp.float64(wavelength),), (jnp.float64(1.0),))
 ```
 
 ### Precomputed T-matrix for n/r sweeps
@@ -132,27 +133,6 @@ from Scattering_Code.cascadertwo import cascadertwo
 
 S_total, d_total = cascadertwo(S1, d1, S2, d2)
 ```
-
-## Key Algorithms
-
-### Multiple Scattering (T-matrix method)
-Each cylinder scatters incident fields into cylindrical harmonics. The self-consistent system
-`(I − diag(s) · T) · c = diag(s) · v` is solved via LU decomposition.
-
-The translation matrix is computed via the **Graf addition theorem** for Hankel functions,
-summed over all periodic images using the **Modified Epsilon Shanks Transformation**.
-
-### S-matrix Normalization
-Normalized so that `|S_ij|²` represents energy flux, making S unitary for lossless structures.
-
-### Cascade (Redheffer Star Product)
-`S_total = S_A ⋆ S_B` — builds multi-layer structures from a single pre-computed S-matrix.
-
-### Automatic Differentiation
-All examples use `Scattering_Code.jax.smatrix` which is fully differentiable via JAX.
-- **Positions (x, y)**: `jax.grad` / `jax.jacobian` through T-matrix and projection matrices
-- **Wavelength λ**: `jax.jvp` with spectral parameters rebuilt as JAX-traced quantities
-- **Refractive index n / radius r**: `jax.grad` through precomputed T-matrix path (fast)
 
 ## Credits
 

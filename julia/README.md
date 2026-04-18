@@ -154,34 +154,6 @@ julia --project=. examples/generate_wave_demo_pec/wave_field_movie_pec.jl --num_
 julia --project=. -e 'using Pluto; Pluto.run(notebook="interactive_notebook/CyScat_Demo.jl")'
 ```
 
-## Key Algorithms
-
-### Multiple Scattering (T-matrix method)
-Each cylinder scatters incident fields into cylindrical harmonics. The self-consistent system
-`(I - diag(s) · T) · c = diag(s) · v` is solved via LU decomposition, where:
-- `s` = single-cylinder Mie scattering coefficients (Bessel/Hankel)
-- `T` = translation matrix (how each cylinder sees the scattered field of all others)
-- `v` = excitation by the incident Floquet mode
-
-The translation matrix `T` is computed via the **Graf addition theorem** for Hankel functions,
-summed over all periodic images using the **Modified Epsilon Shanks Transformation** for acceleration.
-
-### S-matrix Normalization
-The S-matrix is normalized so that `|S_ij|²` represents energy flux:
-`S → diag(√(ky_out/k)) · S · diag(1/√(ky_in/k))`
-This makes S unitary for lossless structures: `S†S = I`.
-
-### Cascade (Redheffer Star Product)
-Identical layers are cascaded via the star product `S_total = S_A ⋆ S_B`, building multi-layer structures from a single pre-computed S-matrix without re-solving the multiple scattering problem.
-
-### Automatic Differentiation
-The entire pipeline is compatible with `ForwardDiff.jl`. Custom chain rules for `besselj`,
-`bessely`, and `hankelh2` propagate Dual numbers through Bessel/Hankel function calls.
-One forward pass computes `∂f/∂p` for any scalar parameter `p`.
-
-### Wigner-Smith Time-Delay Matrix
-From ∂S/∂ω (computed via AD), the Wigner-Smith matrix Q = -iS⁻¹ ∂S/∂ω gives the proper delay times as its eigenvalues — the fundamental time scales of wave transport through the scattering region.
-
 ## Credits
 
 - Original MATLAB implementation: **Curtis Jin**, **Prof. Raj Rao Nadakuditi**, **Prof. Eric Michielssen**, University of Michigan
